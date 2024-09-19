@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f3eeee;
+}
+.card {
+    width: 460px;
+    height: auto;
+    background-color: white;
+    margin: 150px auto;
+    border-radius: 20px;
+}
+.card__image {
+    width: 440px;
+    height: 280px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.card__btn {
+    margin-top: 14px;
+    margin-left: 20px;
+    border-radius: 12px;
+    font-size: 14px;
+    padding: 3px 4px;
+    border: none;
+    cursor: pointer;
+}
+.card__heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 24px;
+}
+.card__paragraph {
+    padding-left: 24px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+.card__btn1 {
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    color: #6262e7;
+    background-color: #0606e431;
+    margin-left: 165px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}

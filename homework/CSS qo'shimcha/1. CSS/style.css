@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e499ff;
+    background-image: radial-gradient(at 47% 69%, hsla(17,62%,65%,1)0px, transparent 50%), radial-gradient(at 9% 32%, hsla(222, 75%,60%,1) 0px, transparent 50%);
+}
+.login {
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+    margin: 200px auto;
+}
+.login::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(25px);
+    border-radius: 20px;
+    background-color: #e499ff;
+    background-image: radial-gradient(at 47% 69%, hsla(17,62%,65%,1)0px, transparent 50%), radial-gradient(at 9% 32%, hsla(222, 75%,60%,1) 0px, transparent 50%);
+}
+.login__label {
+    padding-bottom: 5px;
+    display: block;
+    margin-left: 0.4em;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.login__account {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.login__input {
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0.6em;
+    padding-left: 0.9em;
+    border-radius: 20px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.login__input {
+    background-color: white;
+    color: black;
+}
+
+.login__btn{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.login__send {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+  
+.login__send:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    /* transform: translateY(-7px); */
+    transform: scale(1.1);
+}
+
